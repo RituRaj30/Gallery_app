@@ -5,9 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(247, 247, 247);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img{
+  width: 20%;
+  height: 20%;
+  margin-top:25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 3px solid rgba(110, 110, 110, 0.05);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.upload{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  background-color: lightseagreen;
+  color: white;
+  border:none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.upload:hover{
+  opacity: 0.7;
+}
+
+.upload:active{
+  opacity: 0.5;
+}
+
+/* .delete{
+  width: 35px;
+  min-width: 35px;
+  height: 30px;
+  font-size: 1rem;
+  color: rgb(70, 159, 70);
+  cursor: pointer;
+  position: relative;
+  right: 90px;
+  bottom: 90px;
+}
+
+
+.delete:focus,
+.delete:hover {
+  color: red;
+  outline: none;
+} */
