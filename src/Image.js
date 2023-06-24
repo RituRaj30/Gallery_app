@@ -32,14 +32,7 @@ const Image = () => {
         setImages((prevImages)=> [...prevImages,...files]);
     };
 
-    const handleImageDelete = async (imageUrl) => {
-        try {
-          await axios.delete(`https://api.imgbb.com/1/image?key=d309c44cb2231f7de56d7e15c8de2897&image=${imageUrl}`);
-          setUploadedUrls((prevUrls) => prevUrls.filter((url) => url !== imageUrl));
-        } catch (error) {
-          console.error(error);
-        }
-      };
+
 
 
   return (
@@ -52,7 +45,7 @@ const Image = () => {
                 {uploadedUrls.map((imageUrl,index)=>(
                     <div key={index}>
                         <img src={imageUrl} alt={`uploaded ${index}`}/>
-                        <button onClick={() => handleImageDelete(imageUrl)}>Delete</button>
+                       
                         </div>
                 ))}
                 
