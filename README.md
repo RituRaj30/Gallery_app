@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Visit the Website@ 
+## Visit the Website@ 
 https://gallery-app-woad.vercel.app
 
 ## Available Scripts
